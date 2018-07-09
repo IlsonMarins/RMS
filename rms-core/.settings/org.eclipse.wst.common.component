@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="rms-core">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <dependent-module archiveName="rms-dominio.jar" deploy-path="/" handle="module:/resource/rms-dominio/rms-dominio">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc6.jar" deploy-path="/" handle="module:/classpath/lib/C:/Users/Ilson/eclipse-workspace/Proj_RMS/ojdbc6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

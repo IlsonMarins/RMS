@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/rms-core"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/rms-dominio"/>
+	<classpathentry kind="lib" path="C:/Users/Ilson/eclipse-workspace/Proj_RMS/gson-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ilson/eclipse-workspace/Proj_RMS/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ilson/eclipse-workspace/Proj_RMS/servlet-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

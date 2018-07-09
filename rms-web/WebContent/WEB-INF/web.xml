@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  
+  <display-name>rms-web</display-name>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <session-config>
+  	<session-timeout>-1</session-timeout>
+  </session-config>
+  
+  <servlet>
+    <description></description>
+    <display-name>Servlet</display-name>
+    <servlet-name>Servlet</servlet-name>
+    <servlet-class>rms.controle.web.Servlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/SalvarSolicitacao</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/VisualizarSolicitacao</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/ConsultarSolicitacao</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/ConsultarMetadado</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/VisualizarAnalises</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/ConsultarAnalises</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/AlterarSolicitacao</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/AlterarAgendamento</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/VisualizarConsole</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/AlterarConsole</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/ConsultarLog</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Servlet</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+  <listener>
+   <display-name>Listener</display-name>
+   <listener-class>rms.controle.web.Listener</listener-class>
+  </listener>
+  
+</web-app>

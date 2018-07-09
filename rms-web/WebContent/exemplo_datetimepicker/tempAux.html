@@ -1,0 +1,27 @@
+<html>
+<head>
+<title> Página utilizando JavaScript </title>
+<script language="JavaScript">
+function validaNome()
+{
+var nome;
+nome = document.getElementById("txtNome").value;
+document.getElementById("txtNome").value= "teste";
+alert(nome);
+}
+</script>
+</head>
+<body onload="alert('Olá, mundo');">
+<form>
+<h1>
+Nome:
+<input id="txtNome" type = "text" size =10
+onclick="validaNome();"/>
+<br>
+CEP:
+<input id="cep" type = "text" size =10
+onblur="alert('Você perdeu o foco do campo');"/>
+</h1>
+</form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Exemplo de atualização de página
+com javascript</title>
+<script type="text/JavaScript">
+<!--
+
+function doLoad()
+{
+setTimeout( "refresh()", 5*1000 );
+}
+
+function refresh()
+{
+window.location.href = window.location;
+}
+//-->
+</script>
+</head>
+<body onload="doLoad();">
+Última atualização as
+
+<script type="text/JavaScript">
+<!--
+document.write('<b>' + (new Date()).toLocaleString() + </b>');
+//-->
+</script>
+
+</body>
+</html> 
